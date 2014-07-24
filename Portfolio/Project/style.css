@@ -1,0 +1,506 @@
+
+/*! normalize.css v3.0.1 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background:0 0}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+* {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+
+}
+
+	.clearfix:after {
+	    visibility: hidden;
+	    display: block;
+	    font-size: 0;
+	    content: " ";
+	    clear: both;
+	    height: 0;
+    }
+
+  body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+  }
+
+  .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+  .bit-events-narrow {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+
+
+
+/*==================================================================
+                          NAVIGATION BAR - HOME
+===================================================================*/
+   
+  .title-wrapper {
+    margin-top: 5px;
+  }
+  .title {
+    color: black;
+    text-decoration: none;
+    font-size: 25px;
+    float: left;
+  }
+
+  .hhh {
+    float: left;
+    font-size: 20px;
+
+  }
+
+/*====================================================
+                    NAVIGATION BAR - LINKS
+=====================================================*/  
+
+    ul.nav {
+      float: right;
+      color: black;
+    }
+
+    ul.nav a:hover {
+      color: purple;
+    }
+
+    ul.nav li {
+      display: inline; 
+      position: relative;
+      color: black;
+    }
+
+
+/*=======================================================
+                  SUB-MENU NAVIGATION BAR
+=======================================================*/
+
+ul.sub-menu {
+ background:rgba(255,255,255, 0.8);
+  color: black;
+  display: none;
+  position: absolute;
+  padding: 10px;
+  left: 10px;
+  list-style-type: none;
+  z-index: 999;
+}
+  
+
+ul.sub-menu li {
+  display: list-item; 
+  padding: 0;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  left: 10px;
+  }
+
+ul.nav li:hover ul.sub-menu {
+  display: block;
+}
+
+ul.sub-menu a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+} 
+
+ul.sub-menu a:hover {
+	color: purple;
+}
+
+
+.hi {
+  font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.hi2 {
+  font-size: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+}
+
+.nav a:visited {
+  color: black;
+}
+
+a:link {
+  color: black;
+  -o-transition:.3s;
+  -ms-transition:.3s;
+  -moz-transition:.3s;
+  -webkit-transition:.3s;
+  transition:.3s;
+}
+
+
+a:hover {
+  color: purple;
+}
+
+
+
+.navigator {
+  width: 100%;
+  height: 80px;
+  background:rgba(255,255,255, 0.8);
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+
+/*==================================================================
+                          FRONT MAIN PICTURE
+===================================================================*/
+
+
+.header {
+  width: 100%;
+/*  height: 650px;*/
+/*  background: #2D262E;*/
+  position: relative;
+  overflow: hidden;
+}
+
+.header img {
+  /*border-radius: 10px;*/
+  background: cover;
+  width: 100%;
+}
+
+/*==================================================================
+                          MAIN CONTENT
+===================================================================*/
+
+
+
+
+
+
+/*====================================================
+                    LEFT-SIDE NEWS
+=====================================================*/
+
+
+article h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+.main-content {
+  background-image: url(images/halftone.png);
+}
+
+.news {
+  background: rgba(255,255,255, 0.7);
+  float: left; 
+  width:58%;
+  margin-right: 2%;
+}
+
+.news h2 {
+	margin-left: 12px;
+}
+
+h2.video-h {
+  margin-top: 5px;
+}
+
+.video {
+  margin-top: 5px;
+}
+
+.news span {
+  font-size: 14px;
+  font-weight: bold;
+
+}
+
+.update {
+  float: left;
+  width: 100%;
+  padding: 12px 12px;
+  margin-bottom: 20px;
+}
+
+.float {
+  float: left;
+  border-radius: 3px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+}
+
+.update p {
+ float: left;
+ width: 60%;
+ margin-left: 30px;
+ margin-top: 20px;
+ line-height: 30px;
+}
+
+.update a {
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.update a:hover {
+	color: purple;
+}
+
+.video > h2 {
+margin-left: 0;
+}
+
+.bold2 {
+	font-weight: bold;
+	font-size: 15px;
+}
+
+aside {
+  float: left;
+  width: 40%;
+  background: rgba(255,255,255, 0.7);
+}
+
+aside h2 {
+  font-family: 'Lato', sans-serif;
+}
+
+
+/*====================================================
+              RIGHT SIDE CONTENT: SIDE-BAR
+=====================================================*/
+
+.shows h2 {
+	margin-left: 50px;
+}
+
+
+.sidebar {
+  color: black;
+  letter-spacing: 1px;
+}
+
+.shows a {
+	text-decoration: none;
+	padding: 10px;
+	background: transparent;
+  display: inline-block;    /*"using this allows the padding to take effect"*/
+  font-weight: 600;
+  color: black;
+}
+
+.shows a:hover {
+	color: purple;
+}
+
+
+/*====================================================
+         RIGHT SIDE CONTENT: TOUR SCHEDULE
+=====================================================*/
+
+table  {
+  border-bottom: 1px solid black;
+  margin-left: 50px;
+} 
+
+td {
+  height: 20px;
+  width: 300px;
+}
+
+ td.bold {
+  font-weight: bold;
+  font-size: 12px;
+}
+
+.tDates  {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.twitter {
+  width: 87%;
+  margin: auto;
+}
+
+
+/*=======================================================================
+                          FOOTER PAGE
+========================================================================*/
+
+
+.footer {
+  width: 100%;
+  background: #2C272E;
+  color: white;
+  clear: both;
+  text-align: center;
+  padding: 10px;
+  margin-top: 5px;
+  }
+
+.footer a {
+    color: #fff;
+  }
+
+.footer a:hover {
+    color: purple;
+}
+
+.last {
+  margin: 50px;
+}
+
+.media:hover {
+  	opacity: 0.3; 
+}
+
+.media-contact li {
+  	list-style-type: none;
+  	text-align: center;
+    display: inline-block;
+    letter-spacing: 20px;
+}
+
+
+  /*==================================================================
+                            MEDIA
+  ===================================================================*/
+
+  .media-body {
+    padding-top: 150px;
+    background-image: url('images/halftone.png')
+  }
+
+  /*=========================================================
+                            VIDEOS
+  ==========================================================*/
+
+  .vidWrap {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .vidWrap h2 {
+  	font-family: 'Lato', sans-serif;
+  }
+
+  .vid {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  }
+
+  /*=========================================================
+                            PHOTOS
+  ==========================================================*/
+
+.phoWrap {
+  margin-top: 50px;
+  font-family: 'Lato', sans-serif;
+}
+
+.phoWrap h2 {
+	margin-bottom: 30px;
+}
+
+/*=========================================================================
+                          TOUR PAGE
+==========================================================================*/
+
+  .tour-body {
+    padding-top: 150px;
+    margin-bottom: -55px;
+    background-image: url('images/halftone.png');  
+}
+
+
+/*=========================================================================
+                          MAILING LIST
+==========================================================================*/
+
+.cover {
+  width: 800px;
+  height: 300px;
+  margin: auto;
+  margin-bottom: 165px;
+  background-color: #B5AD92;
+  border: 1px solid #fff;
+}
+
+.box {
+  margin: 75px auto;
+  width:450px;
+  background: #fff;
+}
+
+/*=========================================================
+                          FORM
+==========================================================*/
+input[type="email"] {
+  width:445px;
+  height:70px;
+  font-size: 35px;
+  background:transparent;
+  border:none;
+  border-bottom:solid 4px #e6e8eb;
+  text-align:center;
+  transition: border-color 0.6s ease;
+}
+
+
+::-webkit-input-placeholder {
+   color: #464c4c;
+   opacity: 0.3;
+   transition: color 0.3s ease;
+}
+
+:focus::-webkit-input-placeholder {
+   color: transparent;
+   transition: color 0.3s ease;
+}
+
+
+input[type="email"]:focus {
+   outline:none;
+   border:none;
+  border-bottom:solid 4px purple;
+  transition: border-color 1s ease;
+}
+
+input[type="submit"] {
+  appearance: none;
+  width: 100%;
+  height:50px;
+  font-size:1.05em;
+  background:transparent;
+  color: #e6e8eb;
+  border:none;
+  text-align:center;
+  letter-spacing:0.15em;
+  text-transform:uppercase;
+  transition: color 0.5s ease;
+  outline:none;
+   border:none;
+}
+
+input[type="submit"]:hover {
+  color: #464c4c;
+  cursor:pointer;
+  transition: color 0.5s ease;
+}
+
+
+
+

@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <title> Intense Images </title>
+        <meta name="description" content="A javascript library for viewing images in a fully full screen.">
+
+        <!-- CSS -->
+        <link href='css/stylez.css' rel='stylesheet'>
+
+        <!-- JS -->
+        <script src='../js/intense.js'></script>
+
+    </head>
+    <body>
+
+    	<header>
+
+    	</header>
+    	<section class="demos">
+    		<!-- Using divs for the demo, for formatting... you can use images if you want!  -->
+    		<div class="demo-image test" data-image="img/test.jpg" data-title="Beautiful Cat" data-caption="Meow!"></div>
+            <div class="demo-image first" data-image="/img/PANO.jpg" data-title="Beautiful fields" data-caption="With lots of wheaty puffs. Love those puffs."></div>
+    		<div class="demo-image second" data-image="./img/v1_small.jpg" data-title="Fantastic cliffs" data-caption="Longing for exploration. Explore me!"></div>
+    		<div class="demo-image third"  data-image="./img/h2_small.jpg" data-title="Chilling sheep" data-caption="To your breed, your fleece, your clan be true!"></div>
+    	</section>
+
+    	<footer>
+    	
+    	</footer>
+
+		<script>
+			var elements = document.querySelectorAll( '.demo-image' );
+			Intense( elements );
+		</script>
+
+
+    </body>
+</html>

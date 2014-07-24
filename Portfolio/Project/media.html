@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<link href="demo/css/stylez.css" rel='stylesheet'>
+	<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+	<title>Tokyo Police Club</title>
+</head>
+<body class="media-body">
+	
+
+
+
+<nav class="navigator">
+	<div class="container">
+		<h1 class="hhh">
+		<a href="index.html" class="title"> Tokyo Police Club</a>
+		</h1>
+
+		<ul class="nav">
+			<li><a href="media.html" class="hi">Media</a>
+				<ul class="sub-menu">
+					<li><a href="media.html#vid" class="hi2">Video</a></li>
+					<li><a href="media.html#pho" class="hi2">Photos</a></li>
+				</ul>
+			</li>
+			<li><a href="tour.html" class="hi">Tour</a>
+			</li>
+			<li><a href="form.html" class="hi">Mailing List</a></li>
+		</ul>
+	</div> <!-- ./container -->
+</nav>
+
+	
+
+<div class="container">
+	<div class="vidWrap" id="vid">
+	<h2>Videos</h2>
+		<div class="vidone">
+			<iframe width="853" height="480" src="http://www.youtube.com/embed/4MG6rKuCfyo" class="vid" frameborder="0" allowfullscreen></iframe>
+		</div> <!-- /.vidone -->
+
+		 <div class="vidone">
+		 	<iframe width="853" height="480" src="http://www.youtube.com/embed/U4ECDs7lD4g" class="vid" frameborder="0" allowfullscreen></iframe>
+		 </div> <!-- /.vidone -->
+
+		 <div class="vidone">
+		 	<iframe width="853" height="480" src="http://www.youtube.com/embed/nO24Kh8RPD8" class="vid" frameborder="0" allowfullscreen></iframe>
+		 </div> <!-- /.vidone -->
+	</div> <!-- /.vidWrap -->
+</div> <!-- /.container -->
+
+
+<div class="phoWrap">
+	<h2>Photos</h2>
+		<section class="demos" id="pho">
+			<div class="demo-image first" data-image="images/IMG2.jpg" data-title="Tokyo Police Club" data-caption="Woah"></div>
+	        <div class="demo-image test" data-image="images/tokyo2.jpg"> </div>
+			<div class="demo-image second" data-image="images/IMG3.jpg"> </div>
+			<div class="demo-image third"  data-image="images/IMG4.jpg"> </div>
+			<div class="demo-image fourth"  data-image="images/IMG5.jpg"> </div>
+			<div class="demo-image fifth"  data-image="images/IMG6.jpg"> </div>
+			<div class="demo-image sixth"  data-image="images/IMG7.jpg"> </div>
+			<div class="demo-image seventh"  data-image="images/IMG8.jpg"> </div>
+		</section>
+</div> <!-- /.phoWrap -->
+
+		
+
+
+
+<footer class="footer">
+	<div class="last">
+		<ul class="media-contact">
+			<li>
+				<a href="https://soundcloud.com/tokyopoliceclub" target="_blank" class="media" alt="twitter icon"> <i class="fa fa-soundcloud fa-3x"> </i></a>
+			</li>
+
+			<li>
+				<a href="http://facebook.com/tokyopoliceclub" target="_blank" class="media" alt="facebook icon"> <i class="fa fa-facebook fa-3x"></i></a>
+			</li>
+
+			<li>
+				<a href="https://twitter.com/tokyopoliceclub" target="_blank" class="media" alt="twitter icon"> <i class="fa fa-twitter fa-3x"></i></a>
+			</li>
+
+			<li>
+				<a href="https://www.instagram.com/wearetokyopoliceclub" target="_blank" class="media" alt="instagram icon"> <i class="fa fa-instagram fa-3x"></i></a>
+			</li>
+		</ul>
+	</div> <!-- /.last -->
+</footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="js/intense.js"></script>
+<script src="js/jquery.smooth-scroll.min.js"></script>
+
+<script> 
+  
+  $(document).ready(function(){
+   $('.nav a').smoothScroll({
+   	offset: -200
+   });
+    });
+
+</script>
+
+<script>
+	var elements = document.querySelectorAll( '.demo-image' );
+	Intense( elements );
+</script>
+
+
+
+
+
+</body>
+</html>
