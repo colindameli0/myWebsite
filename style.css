@@ -198,7 +198,6 @@ body {
   margin: 0 auto;
   left: 0;
   top: 0;
-  border-bottom: 2px solid #efefef;
 }
 
 .top-nav {
@@ -216,6 +215,7 @@ body {
 .top-nav a {
   text-decoration: none;
   color: black;
+  padding: 15px 0;
 }
 
 .top-nav a:hover {
@@ -249,7 +249,7 @@ body {
 .shortBtn2 {
   display: block;
   position: absolute;
-  top: 140px;
+  top: 136px;
   left: -20px;
   width: 0;
 }
@@ -272,8 +272,8 @@ body {
 
 .print i {
   color: #fff;
-  top: 18px;
-  left: 18px;
+  top: 20px;
+  left: 20px;
   position: absolute;
 }
 
@@ -301,7 +301,7 @@ body {
 .square1 {
   height: 50px;
   width: 53px;
-  background: #000;
+  background: #343434;
   position: relative;
 }
 
@@ -322,15 +322,15 @@ body {
 }
 
 .download span {
-  background: #03CC85;
+  background: #03cc85;
 }
 
 .download i {
   color: #fff;
   background: #03cc85;
   position: absolute;
-  top: 18px;
-  left: 18px;
+  top: 17px;
+  left: 20px;
 }
 
 .download a {
@@ -386,8 +386,8 @@ body {
   float: left;
   width: 50%;
   background: #efefef;
-  min-height: 400px;
-  max-height: 400px;
+  min-height: 450px;
+  max-height: 450px;
 }
 
 /* ===========================+
@@ -396,7 +396,7 @@ body {
 .my-name {
   width: 60%;
   margin: 25px 65px;
-  margin-top: 70px;
+  margin-top: 130px;
   font-family: 'open_sansbold' Arial, sans-serif;
 }
 
@@ -407,7 +407,7 @@ h1 {
   margin-bottom: 0;
   text-transform: uppercase;
   font-family: 'open_sansbold' Arial, sans-serif;
-  font-weight: normal;
+  font-weight: 600;
 }
 
 .my-name span {
@@ -444,6 +444,11 @@ h2 {
   font-weight: normal;
 }
 
+.my-title a {
+  text-decoration: none;
+  color: #03cc85;
+}
+
 /* ===========================+
  		BOTTOM SECTION TEXT
  =============================*?*/
@@ -451,8 +456,8 @@ h2 {
   background: #343434;
   float: left;
   width: 50%;
-  min-height: 300px;
-  max-height: 300px;
+  min-height: 250px;
+  max-height: 250px;
 }
 
 .profile {
@@ -510,7 +515,7 @@ h2 {
   padding-top: 30px;
   width: 100%;
   border-bottom: 4px solid #efefef;
-  margin-top: 50px;
+  margin-top: 15px;
 }
 
 .port-intro {
@@ -524,7 +529,7 @@ h2 {
 
 .port-container {
   width: 75%;
-  margin: 0 auto;
+  margin: 40px auto;
   margin-bottom: 45px;
   clear: both;
 }
@@ -557,6 +562,16 @@ img.port:hover {
   margin-top: 15px;
 }
 
+.top p {
+  text-align: center;
+}
+
+.top h5 {
+  text-align: center;
+  margin-bottom: -5px;
+  font-size: 16px;
+}
+
 .port {
   border-radius: 3px;
   box-shadow: 0 0 10px #bbb;
@@ -571,6 +586,8 @@ img.port:hover {
 .resume {
   border-bottom: 3px solid #efefef;
   width: 100%;
+  margin-top: 15px;
+  padding-top: 30px;
 }
 
 .resume h3 {
@@ -579,33 +596,68 @@ img.port:hover {
   color: #000;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 200;
+  margin-top: 10px;
 }
 
-.my-resume p {
-  text-align: center;
-  color: #7a7a7a;
-}
-
-.my-skills {
+.my-resume {
   width: 80%;
   margin: 0 auto;
 }
 
-.cog {
-  margin: 10px 185px;
+/* ============================================
+               SKILLS BOX
+=============================================*/
+.skill-photo {
+  width: 92px;
+  float: left;
+  background: #03cc85;
+  margin: 35px 10px;
+  position: relative;
 }
 
-.skills-img {
-  border: 1px solid yellow;
-  width: 51%;
+.skill-photo2 {
+  width: 92px;
   float: left;
-  color: #03cc85;
+  background: #03cc85;
+  margin: 35px 10px;
+  position: relative;
 }
 
-.skills-ex {
-  border: 1px solid blue;
-  width: 42%;
+.skill-photo i {
+  color: #fff;
+  margin: 10px;
+  position: relative;
+  left: 2px;
+}
+
+.skill-photo2 i {
+  color: #fff;
+  margin: 10px;
+  position: relative;
+  left: 2px;
+  top: 4px;
+}
+
+.skill-box1 {
+  width: 40%;
   float: left;
+  padding: 30px;
+  text-align: right;
+}
+
+.skill-box2 {
+  width: 40%;
+  float: left;
+  padding: 30px;
+  text-align: left;
+}
+
+.skill-box1 p {
+  color: #7a7a7a;
+}
+
+.skill-box2 p {
+  color: #7a7a7a;
 }
 
 /* ==========================================================
@@ -613,6 +665,8 @@ img.port:hover {
  ==========================================================*/
 .contact {
   width: 100%;
+  margin-top: 15px;
+  padding-top: 30px;
 }
 
 .contact-form {
@@ -638,13 +692,19 @@ img.port:hover {
   font-size: 28px;
   font-family: Helvetica, Arial, sans-serif;
   font-weight: 200;
+  margin-top: 10px;
 }
 
 .contact-message {
   margin-top: 60px;
   font-size: 20px;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   color: #7a7a7a;
+}
+
+.contact-message p {
+  font-size: 20px;
+  font-weight: 100;
 }
 
 .form-contain {
@@ -681,11 +741,11 @@ textarea {
 }
 
 input:focus {
-  border: 2px solid #03CC85;
+  border: 2px solid #03cc85;
 }
 
 textarea:focus {
-  border: 2px solid #03CC85;
+  border: 2px solid #03cc85;
 }
 
 .submit {
@@ -714,8 +774,8 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 input[type="submit"]:hover {
-  background-color: #03CC85;
-  border: 2px solid #03cc85;
+  background-color: #03cc85;
+  border-color: #03cc85;
   color: #fff;
 }
 
@@ -781,25 +841,6 @@ input[type="submit"]:hover {
   color: #0CBADF;
 }
 
-/* ============================================
-               FORM DESIGN
-=============================================*/
-.ty body {
-  padding-top: 500px;
-  font-family: 'open_sans' Arial, sans-serif;
-}
-
-.thanks {
-  clear: both;
-  width: 100%;
-  background: #7a7a7a;
-}
-
-.thanks-box {
-  width: 60%;
-  margin: 0 auto;
-}
-
 /*========================================================================================
 =======================================================================================
                 @MEDIA QUERY
@@ -809,10 +850,6 @@ input[type="submit"]:hover {
 /*landscape phone to portrait tab*/
 /* Landscape phones and down */
 @media (max-width: 480px) {
-  .top {
-    width: 80%;
-  }
-
   .top-nav {
     margin: 25px auto;
     padding: 0;
@@ -826,7 +863,7 @@ input[type="submit"]:hover {
     float: none;
     background-size: cover;
     width: 100%;
-    height: 40%;
+    height: 35%;
     min-height: 400px;
     background-position: none;
   }
@@ -856,6 +893,7 @@ input[type="submit"]:hover {
 
   .profile {
     padding: 5px;
+    margin-top: 30px;
   }
 
   .profile p:nth-child(1) {
@@ -870,12 +908,48 @@ input[type="submit"]:hover {
     display: none;
   }
 
+  /* ============================================
+                  PORTFOLIO
+   =============================================*/
   .port-container {
     width: 100%;
   }
 
+  .top {
+    width: 80%;
+  }
+
   /* ============================================
-                  PORTFOLIO
+                  SKILLS
+   =============================================*/
+  .my-resume {
+    width: 100%;
+  }
+
+  .skill-box1 {
+    float: none;
+    text-align: left;
+    width: 100%;
+  }
+
+  .skill-photo {
+    float: none;
+    width: 100%;
+    margin: 0;
+  }
+
+  .skill-box2 {
+    float: none;
+    text-align: left;
+    width: 100%;
+  }
+
+  .skill-photo2 {
+    display: none;
+  }
+
+  /* ============================================
+                  FORM
    =============================================*/
   .form-contain {
     width: 100%;
