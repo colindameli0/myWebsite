@@ -17,10 +17,10 @@
 	<div class="container clearfix">	
 		<div class="navigation">
 			<ul class="top-nav">
-			<li> <a href="#home" class="smoothScroll"> Home</a> </li>
-			<li> <a href="#portfolio" class="smoothScroll"> Portfolio</a> </li>
-			<li> <a href="#skills" class="smoothScroll"> Skills</a> </li>
-			<li> <a href="#contact" class="smoothScroll"> Contact</a> </li>
+			<li> <a href="#home" id="bb" class="smoothScroll"> Home</a> </li>
+			<li> <a href="#portfolio" id="bbhover" class="smoothScroll"> Portfolio</a> </li>
+			<li> <a href="#skills" id="bbhover" class="smoothScroll"> Skills</a> </li>
+			<li> <a href="#contact" id="bbhover" class="smoothScroll"> Contact</a> </li>
 			</ul>
 		</div> <!-- /.navigation -->
 	</div> <!-- /.container -->
@@ -106,29 +106,37 @@
 		<h3 class="port-head">My Portfolio</h3>
 		<p class="port-intro">Take a look at some of my work.</p>
 		<div class="port-container clearfix">
-
-			<div class="top">
-				<a href="Portfolio/Project/index.html" target="_blank"> <img src="images/IMGpor1.png" height="200" width="300x" class="port"> </a>
-				<h5 class="top-h">Multi-Page Website</h5>
-				<p class="top-p">Utilizing jQuery plugins, open-source widgets and a simple design.</p>
+			
+			<div class="top clearfix">
+				<a href="Gallery/index.html" target="_blank"> <img src="images/IMGpor4.png" height="230" width="350" class="port">
+					<div class="cover clearfix">
+	        			<h3>-jQuery Image Gallery-</h3>
+	        			<p>Image filtering gallery written with jQuery. Optimal viewing in Chrome.</p>
+	        			<p>click to view</p>
+	      			</div>
+	      		</a>	
 			</div>
 
 			<div class="top">
-				<a href="Portfolio/Project 2/index.html"> <img src="images/IMGpor2.png" height="200" width="300" class="port"> </a>
-				<h5 class="top-h">Responsive Design</h5>
-				<p class="top-p">Built from client provided models and assets. User-friendly on multiple platforms.</p>
+				<a href="Responsive/index.html" target="_blank"> <img src="images/IMGpor2.png" height="230" width="350" class="port">
+					<div class="cover clearfix">
+	        			<h3>-Responsive Design-</h3>
+	        			<p>Built from client provided models and assets. User-friendly on multiple platforms.</p>
+	        			<p>click to view</p>
+	      			</div>
+	      		</a>
 			</div>	
 
 			<div class="top">
-				<a href="Portfolio/Project 3/dist/index.html"> <img src="images/IMGpor3.png" height="200" width="300" class="port"> </a>
-				<h5 class="top-h">Tooling</h5>
-				<p class="top-p">The very first website I designed, re-written with Jade, SASS, and tooled in Grunt.</p>
+				<a href="Tooling/index.html" target="_blank"> <img src="images/IMGpor3.png" height="230" width="350" class="port"> 
+					<div class="cover clearfix">
+	        			<h3>-Tooling-</h3>
+	        			<p>The very first website I designed, re-written with Jade, SASS, and tooled in Grunt.</p>
+	        			<p>click to view</p>
+	      			</div>
+	      		</a>
 			</div>
 
-<!-- 			<div class="top">
-				<img src="http://placehold.it/250x250" height="200" width="300" class="port">
-				<p>COMING SOON</p>
-			</div>  -->
 
 	</div> <!-- /.port-container -->
 </section> <!-- /.portfolio -->
@@ -137,25 +145,8 @@
 
 <section class="resume clearfix" id="skills">
 	<div class="my-resume clearfix">
-	<h3>Skills</h3>
+	<h3>Skills (under construction at the moment :)</h3>
 
-	<div class="skill-box1">
-		<h4>Development</h4>
-		<p>Creating with the fundamentals of HTML5, CSS3, JavaScript, and jQuery.</p>
-	</div>
-
-	<div class="skill-photo">
-		<i class="fa fa-code fa-4x"></i>
-	</div>
-
-	<div class="skill-photo2">
-		<i class="fa fa-desktop fa-4x"></i>
-	</div>
-
-	<div class="skill-box2">
-		<h4>Design</h4>
-		<p>Enhanced user experiences and accessbibilty through responsive design and cross browser compatibility.</p>
-	</div>
 
 			
 	</div> <!-- /.my-resume -->
@@ -172,7 +163,7 @@
 					<input type="text" name="name"  class="errorForm" placeholder="Name">
 				</p>
 				<p>
-					<input type="text" name="email" id="email" class="errorForm" placeholder="Email">
+					<input type="text" name="email" id="email" class="errorForm" placeholder="Email" Required>
 				</p>
 				<p>
 			        <input type="text" name="subject" id="subject" placeholder="Subject">
@@ -188,7 +179,8 @@
 
 		<div class="contact-message">
 			<h4>Message Me</h4>
-			<p>Go ahead and send me a message if you want to talk web development or anything for that matter!</p> 
+			<p>If you have a question or want to talk about web developerment, HackerYou, or anything, feel free to drop me a line here.</p> 
+			<p>You can also contact me through my social media.</p>
 		</div> <!-- /.contact-message -->
 
 
@@ -198,7 +190,7 @@
 
 <footer class="footer">
 	<div class="footer-wrap clearfix">
-		<p class="maste">2014 Colin D'Amelio</p>
+		<p class="maste">2014 <span>Colin</span> D'Amelio</p>
 		<ul class="footer-nav">
 			<li><a href="https://www.instagram.com/colindameli0" target="_blank" class="in"> <i class="fa fa-instagram fa-2x"></i> </a></li>
 			<li><a href="https://www.twitter.com/colindameli0" target="_blank" class="twit"> <i class="fa fa-twitter fa-2x"></i> </a></li>
